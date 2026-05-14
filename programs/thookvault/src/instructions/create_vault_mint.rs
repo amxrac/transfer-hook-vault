@@ -46,7 +46,7 @@ impl<'info> CreateVaultMint<'info> {
         .unwrap();
 
         // metadata space
-        let meta_data_space = 250;
+        let meta_data_space = 350;
 
         let total_space = space + meta_data_space;
         let rent = Rent::get()?.minimum_balance(total_space);

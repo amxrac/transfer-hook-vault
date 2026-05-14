@@ -59,13 +59,3 @@ pub mod thookvault {
         ctx.accounts.deposit(amount)
     }
 }
-
-// initialize the config
-// initialize_whitelist
-// add_to_whitelist
-// remove_from_whitelist
-// initialize_transfer_hook
-// transfer_hook
-// withdraw
-// deposit
-// mint token

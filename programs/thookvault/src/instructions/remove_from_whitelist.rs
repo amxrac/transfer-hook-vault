@@ -22,6 +22,7 @@ pub struct RemoveFromWhitelist<'info> {
         bump,
     )]
     pub whitelist_entry: Account<'info, WhitelistEntry>,
+    pub system_program: Program<'info, System>,
 }
 
 impl<'info> RemoveFromWhitelist<'info> {
